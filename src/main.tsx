@@ -5,6 +5,8 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <App title="Tractatus Logico-Philosophicus"
+         author= "Ludwig Wittgenstein" 
+          />
   </StrictMode>,
 )
