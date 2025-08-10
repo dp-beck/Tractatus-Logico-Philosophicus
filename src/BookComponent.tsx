@@ -10,6 +10,15 @@ const BookComponent: FC<BookComponentProps> = ({book}) => {
     <div>
         <h1>{book.title}</h1>
         <h2>{book.author}</h2>
+        <ul>
+            {book.Propositions.map((proposition) => {
+                return (
+                    <li key={proposition.number}>
+                        <p><strong>{proposition.number}. </strong>{proposition.text}</p>
+                    </li>
+                );
+            })}
+        </ul>
     </div>
   );
 };

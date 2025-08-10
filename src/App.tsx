@@ -5,7 +5,6 @@ import TLP from "./Book";
 const App: FC = () => {
   return (
     <>
-      <p>Hello</p>
       <BookComponent book= {TLP} />
     </>
   );

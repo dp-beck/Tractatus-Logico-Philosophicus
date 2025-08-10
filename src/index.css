@@ -17,3 +17,7 @@ h1 {
 h2 {
   text-align: center;
 }
+
+li {
+  list-style-type: none;
+}
