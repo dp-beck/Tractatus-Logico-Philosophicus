@@ -1,4 +1,4 @@
-import { Book } from "./BookInterface";
+import type { Book } from "./BookInterface";
 import * as Propositions from "./Propositions";
 
 // Map subPropositions

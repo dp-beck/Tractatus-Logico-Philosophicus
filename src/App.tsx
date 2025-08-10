@@ -1,15 +1,12 @@
 import { FC } from "react";
+import BookComponent from "./BookComponent";
+import TLP from "./Book";
 
-interface AppProps {
-  title: string;
-  author: string;
-}
-
-const App: FC<AppProps> = ({ title, author }) => {
+const App: FC = () => {
   return (
     <>
-      <h1>{title}</h1>
-      <h2>{author}</h2>
+      <p>Hello</p>
+      <BookComponent book= {TLP} />
     </>
   );
 };

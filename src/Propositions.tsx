@@ -1,4 +1,4 @@
-import { Proposition } from "./PropositionInterface";
+import type { Proposition } from "./PropositionInterface";
 
 export const Proposition1: Proposition = {
     number: "1",
