@@ -6,15 +6,17 @@ import type { Book } from "./BookInterface";
  }
 
 const BookComponent: FC<BookComponentProps> = ({book}) => {
+  const allProps = book.getAllPropositions(book.Propositions);
+
   return (
     <div>
         <h1>{book.title}</h1>
         <h2>{book.author}</h2>
         <ul>
-            {book.Propositions.map((proposition) => {
+            {allProps?.map((proposition) => {
                 return (
-                    <li key={proposition.number}>
-                        <p><strong>{proposition.number}. </strong>{proposition.text}</p>
+                    <li key={proposition[0]}>
+                        <p><strong>{proposition[0]}. </strong>{proposition[1]}</p>
                     </li>
                 );
             })}
