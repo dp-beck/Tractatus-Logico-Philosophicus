@@ -47,30 +47,4 @@ const TLP: Book = {
     },
 };
 
-// TO DO: Write a recursive function to get all propositions including subPropositions
-/*
-1. Got to first item - add to array
-2. Check if it has subPropositions
-3. If yes, go to first subProposition - add to array
-4. Repeat 2-3 until no more subPropositions
-5. Go back to parent proposition - check if it has more subPropositions
-6. If yes, go to next subProposition - add to array
-7. Repeat 2-6 until no more subPropositions
-8. Go back to top level - check if it has more propositions
-9. If yes, go to next proposition - add to array
-10. Repeat 2-9 until no more propositions   
-
-function getAllProps(propositions) {
-    const allProps = [];
-    if propositions.length === 0 {
-        return allProps;
-    }
-    for (const prop of propositions) {
-        allProps.push(prop);
-        if (prop.subPropositions && prop.subPropositions.length > 0) {
-            allProps.push(...getAllProps(prop.subPropositions));
-        }
-    }
-    return allProps;
-*/
 export default TLP;
