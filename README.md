@@ -1,3 +1,7 @@
+# Project Specific Notes : IN PROGRESS
+
+Two modes: One displays the whole text straight down; one is hyperlink expandable; contractable; hyperlinks to related topics in the SEP.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

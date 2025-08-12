@@ -18,7 +18,18 @@ Propositions.Proposition1_2.subPropositions = [
     Propositions.Proposition1_21,   
 ];
 
-Propositions.Proposition2.subPropositions = [];
+Propositions.Proposition2.subPropositions = [
+    Propositions.Proposition2_01,
+];
+
+Propositions.Proposition2_01.subPropositions = [
+    Propositions.Proposition2_011,
+    Propositions.Proposition2_012,
+];
+
+Propositions.Proposition2_012.subPropositions = [
+    Propositions.Proposition2_0121,
+];
 
 const TLP: Book = {
     title: "Tractatus Logico-Philosophicus",
@@ -27,7 +38,7 @@ const TLP: Book = {
         Propositions.Proposition1,
         Propositions.Proposition2,
     ], // Add actual propositions here
-    getAllPropositions(propositions: Proposition[]) {
+    getAllPropositionsFlat(propositions: Proposition[]) {
         const allProps: string[][] = [];
 
         function recurse(current: Proposition[]) {

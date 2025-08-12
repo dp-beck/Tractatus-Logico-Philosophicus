@@ -55,4 +55,36 @@ export const Proposition2: Proposition ={
     subPropositions: [],
     immediateParent: undefined
 };
-    
+
+export const Proposition2_01: Proposition ={
+    number: "2.01",
+    text: "An atomic fact is a combination of objects (entities, things).",
+    subPropositions: [],
+    immediateParent: Proposition2
+};     
+
+export const Proposition2_011: Proposition ={
+    number: "2.011",
+    text: "It is essential to a thing that it can be a constituent part of an atomic fact.",
+    subPropositions: [],
+    immediateParent: Proposition2_01
+};
+
+export const Proposition2_012: Proposition ={
+    number: "2.012",
+    text: "In logic nothing is accidental: if a thing can occur in an atomic fact the possibility of that atomic fact must already be prejudged.",
+    subPropositions: [],
+    immediateParent: Proposition2_01
+};
+
+export const Proposition2_0121: Proposition ={
+    number: "2.0121",
+    text: "It would, so to speak, appear as an accident, when to a thing that could exist alone on its own account," + 
+        " subsequently a state of affairs could be made to fit. If things can occur in atomic facts," + 
+        " this possibility must already lie in them. (A logical entity cannot be merely possible. Logic treats of" +
+        " every possibility, and all possibilities are its facts.) Just as we cannot think of spatial objects at all apart from" +
+        " space, or temporal objects apart from time, so we cannot think of any object apart from the possibility of its connexion with" +
+        " other things. If I can think of an object in the context of an atomic fact, I cannot think of it apart from the possibility of this context.",
+    subPropositions: [],
+    immediateParent: Proposition2_012
+};
