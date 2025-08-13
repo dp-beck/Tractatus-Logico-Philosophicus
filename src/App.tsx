@@ -1,5 +1,5 @@
 import { FC } from "react";
-import BookComponent from "./BookComponent";
+import BookComponent from "./components/BookComponent";
 import TLP from "./Book";
 
 const App: FC = () => {
