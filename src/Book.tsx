@@ -1,6 +1,7 @@
 import type { Book } from "./BookInterface";
 import type { Proposition } from "./PropositionInterface";
 import * as Propositions from "./Propositions";
+import Preface from "./Preface";
 
 // Map subPropositions
 Propositions.Proposition1.subPropositions = [
@@ -34,6 +35,7 @@ Propositions.Proposition2_012.subPropositions = [
 const TLP: Book = {
     title: "Tractatus Logico-Philosophicus",
     author: "Ludwig Wittgenstein",
+    preface: Preface,
     Propositions: [
         Propositions.Proposition1,
         Propositions.Proposition2,

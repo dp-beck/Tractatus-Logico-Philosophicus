@@ -12,6 +12,10 @@ const BookComponent: FC<BookComponentProps> = ({book}) => {
     <div>
         <h1>{book.title}</h1>
         <h2>{book.author}</h2>
+        <h3>Preface</h3>
+        {book.preface?.map((paragraph, index) => {
+            return <p key={index}>{paragraph}</p>;
+        })}
 
         <ul>
             {book.Propositions.map((proposition) => {
