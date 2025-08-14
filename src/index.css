@@ -21,3 +21,11 @@ h2 {
 li {
   list-style-type: none;
 }
+
+.hidden {
+  display: none;
+}
+
+.red {
+  color: red;
+}
