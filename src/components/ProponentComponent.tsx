@@ -12,6 +12,7 @@ const PropositionComponent: FC<PropositionComponentProps> = ({proposition}) => {
         if (event.target instanceof HTMLElement)
         {
             event.target.nextElementSibling?.classList.toggle('hidden');
+            event.target.nextElementSibling?.classList.toggle('showing');
         }
     }
 

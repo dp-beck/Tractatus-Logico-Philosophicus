@@ -24,8 +24,22 @@ li {
 
 .hidden {
   display: none;
+  opacity: 0;
+  transition:
+    opacity 1s,
+    display 1s allow-discrete;
 }
 
-.red {
-  color: red;
+.showing {
+  opacity: 1 ;
+  display: block;
+  transition:
+    opacity 2s,
+    display 1s allow-discrete;
+}
+
+@starting-style {
+  .showing {
+    opacity: 0;
+  }
 }
