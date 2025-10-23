@@ -18,8 +18,17 @@ h2 {
   text-align: center;
 }
 
+ul {
+  margin: 0;}
+
 li {
   list-style-type: none;
+  margin: none;
+}
+
+.preface {
+  padding-left: 40px;
+  margin-bottom: 2rem;
 }
 
 .hidden {

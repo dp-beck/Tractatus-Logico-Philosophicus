@@ -26,10 +26,18 @@ Propositions.Proposition2.subPropositions = [
 Propositions.Proposition2_01.subPropositions = [
     Propositions.Proposition2_011,
     Propositions.Proposition2_012,
+    Propositions.Proposition2_013,
 ];
 
 Propositions.Proposition2_012.subPropositions = [
     Propositions.Proposition2_0121,
+    Propositions.Proposition2_0122,
+    Propositions.Proposition2_0123,
+    Propositions.Proposition2_0124,
+];
+
+Propositions.Proposition2_0123.subPropositions = [
+    Propositions.Proposition2_01231,
 ];
 
 const TLP: Book = {

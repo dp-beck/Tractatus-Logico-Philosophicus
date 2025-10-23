@@ -88,3 +88,47 @@ export const Proposition2_0121: Proposition ={
     subPropositions: [],
     immediateParent: Proposition2_012
 };
+
+export const Proposition2_0122: Proposition ={
+    number: "2.0122",
+    text:   `The thing is independent, in so far as it can occur in all possible circumstances, but this form of independence is a form of
+            connexion with the atomic fact, a form of dependence. (It is
+            impossible for words to occur in two different ways, alone and
+            in the proposition.)`,
+    subPropositions: [],
+    immediateParent: Proposition2_012
+};
+
+export const Proposition2_0123: Proposition ={
+    number: "2.0123",
+    text:   `If I know an object, then I also know all the possibilities of its
+            occurrence in atomic facts.
+            (Every such possibility must lie in the nature of the object.)
+            A new possibility cannot subsequently be found.`,
+    subPropositions: [],
+    immediateParent: Proposition2_012
+};
+
+export const Proposition2_01231: Proposition ={
+    number: "2.01231",
+    text:   `In order to know an object, I must know not its external but all
+            its internal qualities.`,
+    subPropositions: [],
+    immediateParent: Proposition2_0123
+};
+
+export const Proposition2_0124: Proposition ={
+    number: "2.0124",
+    text:   `If all objects are given, then thereby are all possible atomic facts
+            also given.`,
+    subPropositions: [],
+    immediateParent: Proposition2_012
+};
+
+export const Proposition2_013: Proposition ={
+    number: "2.013",
+    text:   `Every thing is, as it were, in a space of possible atomic facts. I can think of this space as empty, but not of the thing without
+    the space.`,
+    subPropositions: [],
+    immediateParent: Proposition2_01
+};
