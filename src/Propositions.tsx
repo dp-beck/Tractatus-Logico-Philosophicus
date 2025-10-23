@@ -132,3 +132,44 @@ export const Proposition2_013: Proposition ={
     subPropositions: [],
     immediateParent: Proposition2_01
 };
+
+export const Proposition2_0131: Proposition ={
+    number: "2.0131",
+    text:   `A spatial object must lie in infinite space. (A point in space is
+    a place for an argument.) A speck in a visual field need not be red, but it must have a
+colour; it has, so to speak, a colour space round it. A tone must
+have a pitch, the object of the sense of touch a hardness, etc.
+`,
+    subPropositions: [],
+    immediateParent: Proposition2_013
+}
+
+export const Proposition2_014: Proposition ={
+    number: "2.014",
+    text:   `Objects contain the possibility of all states of affairs.`,
+    subPropositions: [],
+    immediateParent: Proposition2_01
+};
+
+export const Proposition2_0141: Proposition ={
+    number: "2.0141",
+    text:   `The possibility of its occurrence in atomic facts is the form of
+    the object.`,
+    subPropositions: [],
+    immediateParent: Proposition2_014
+};
+
+export const Proposition2_02: Proposition ={
+    number: "2.02",
+    text:   `The object is simple.`,
+    subPropositions: [],
+    immediateParent: Proposition2
+};
+
+export const Proposition2_0201: Proposition ={
+    number: "2.0201",
+    text:   `Every statement about complexes can be analysed into a statement about their constituents, and into those propositions
+which completely describe the complexes.`,
+    subPropositions: [],
+    immediateParent: Proposition2_02
+};

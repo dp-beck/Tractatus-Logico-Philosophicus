@@ -21,12 +21,14 @@ Propositions.Proposition1_2.subPropositions = [
 
 Propositions.Proposition2.subPropositions = [
     Propositions.Proposition2_01,
+    Propositions.Proposition2_02,
 ];
 
 Propositions.Proposition2_01.subPropositions = [
     Propositions.Proposition2_011,
     Propositions.Proposition2_012,
     Propositions.Proposition2_013,
+    Propositions.Proposition2_014
 ];
 
 Propositions.Proposition2_012.subPropositions = [
@@ -38,6 +40,18 @@ Propositions.Proposition2_012.subPropositions = [
 
 Propositions.Proposition2_0123.subPropositions = [
     Propositions.Proposition2_01231,
+];
+
+Propositions.Proposition2_013.subPropositions = [
+    Propositions.Proposition2_0131,
+];
+
+Propositions.Proposition2_014.subPropositions = [
+    Propositions.Proposition2_0141,
+];
+
+Propositions.Proposition2_02.subPropositions = [
+    Propositions.Proposition2_0201,
 ];
 
 const TLP: Book = {
