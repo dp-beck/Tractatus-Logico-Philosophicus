@@ -1,5 +1,6 @@
 import type { Proposition } from "./PropositionInterface";
 
+// Proposition 1 and Subpropositions
 export const Proposition1: Proposition = {
     number: "1",
     text: "The world is all that is the case.",
@@ -48,6 +49,8 @@ export const Proposition1_21: Proposition ={
     subPropositions: [],
     immediateParent: Proposition1_2
 };
+
+// Proposition 2 and Subpropositions -- INCOMPLETE
 
 export const Proposition2: Proposition ={
     number: "2",
@@ -172,4 +175,80 @@ export const Proposition2_0201: Proposition ={
 which completely describe the complexes.`,
     subPropositions: [],
     immediateParent: Proposition2_02
+};
+
+export const Proposition2_021: Proposition ={
+    number: "2.021",
+    text:   `Objects form the substance of the world. Therefore they cannot be compound.`,
+    subPropositions: [],
+    immediateParent: Proposition2_02
+};
+
+export const Proposition2_0211: Proposition ={
+    number: "2.0211",
+    text:   `If the world had no substance, then whether a proposition had sense would depend on whether another proposition was true.`,
+    subPropositions: [],
+    immediateParent: Proposition2_021
+};
+
+export const Proposition2_0212: Proposition ={
+    number: "2.0212",
+    text:   `It would then be impossible to form a picture of the world (true or false).`,
+    subPropositions: [],
+    immediateParent: Proposition2_021
+};
+
+export const Proposition2_022: Proposition ={
+    number: "2.022",
+    text:   `It is clear that however different from the real one an imagined world may be, it must have something 
+    --a form--in common with the real world.`,
+    subPropositions: [],
+    immediateParent: Proposition2_02
+};
+
+export const Proposition2_023: Proposition ={
+    number: "2.023",
+    text:   `This fixed form consists of the objects.`,
+    subPropositions: [],
+    immediateParent: Proposition2_02
+};
+
+// Proposition 3 and Subpropositions
+export const Proposition3: Proposition ={
+    number: "3",
+    text: "A logical picture of the facts is the thought.",
+    subPropositions: [],
+    immediateParent: undefined
+};
+
+// Proposition 4 and Subpropositions
+export const Proposition4: Proposition ={
+    number: "4",
+    text: "The thought is the signifcant proposition.",
+    subPropositions: [],
+    immediateParent: undefined
+};
+
+// Proposition 5 and Subpropositions
+export const Proposition5: Proposition ={
+    number: "5",
+    text: `Propositions are truth-functions of elementary propositions. (An elementary proposition is a truth-function of itself.)`,
+    subPropositions: [],
+    immediateParent: undefined
+};
+
+// Proposition 6 and Subpropositions
+export const Proposition6: Proposition ={
+    number: "6",
+    text: `The general form of truth-function is: [p, ξ, N(ξ)]. This is the general form of proposition.`,
+    subPropositions: [],
+    immediateParent: undefined
+};
+
+// Proposition 6 and Subpropositions
+export const Proposition7: Proposition ={
+    number: "7",
+    text: `Whereof one cannot speak, thereof one must be silent.`,
+    subPropositions: [],
+    immediateParent: undefined
 };

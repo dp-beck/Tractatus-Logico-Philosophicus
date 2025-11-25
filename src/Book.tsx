@@ -52,7 +52,16 @@ Propositions.Proposition2_014.subPropositions = [
 
 Propositions.Proposition2_02.subPropositions = [
     Propositions.Proposition2_0201,
+    Propositions.Proposition2_021,
+    Propositions.Proposition2_022,
+    Propositions.Proposition2_023,
 ];
+
+Propositions.Proposition2_021.subPropositions = [
+    Propositions.Proposition2_0211,
+    Propositions.Proposition2_0212,
+];
+
 
 const TLP: Book = {
     title: "Tractatus Logico-Philosophicus",
@@ -61,7 +70,12 @@ const TLP: Book = {
     Propositions: [
         Propositions.Proposition1,
         Propositions.Proposition2,
-    ], // Add actual propositions here
+        Propositions.Proposition3,
+        Propositions.Proposition4,
+        Propositions.Proposition5,
+        Propositions.Proposition6,
+        Propositions.Proposition7,
+    ], 
     getAllPropositionsFlat(propositions: Proposition[]) {
         const allProps: string[][] = [];
 
